@@ -1,0 +1,460 @@
+@media (max-width : 2560px) and (min-width : 1441px) {
+  
+}
+
+@media (max-width : 1440px) and (min-width : 1201px) {
+  
+}
+
+@media (max-width : 1200px) and (min-width : 1025px) {
+  
+}
+
+@media (max-width : 1024px) and (min-width : 993px) {
+  header .end-row .left {
+    padding-left: 0px;
+    gap: 0px;
+  }
+
+  .products .frow {
+    flex-wrap:wrap;
+  }
+  
+  .products .frow .fbox ,.products .frow .secbox {
+    width: 100%;
+  }
+  
+  .subscribe .row {
+    padding-top: 0px;
+  }
+
+  .subscribe .row .sub button {
+    width: 30%;
+  }
+
+}
+
+@media (max-width : 992px) and (min-width : 769px) {
+  
+}
+
+@media (max-width : 768px) and (min-width : 577px) {
+  nav .contain {
+    gap: 55px;
+  }
+  
+  nav .contain .navbar-nav {
+    gap: 28px;
+  }
+
+  header .heading {
+    width: 90%;
+  }
+
+  header .end-row .left {
+    padding-left: 0px;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .products .frow {
+    flex-wrap:wrap;
+  }
+  
+  .products .frow .fbox ,.products .frow .secbox {
+    width: 100%;
+  }
+  
+  .subscribe .row {
+    padding-top: 0px;
+  }
+
+  .subscribe .row .sub button {
+    width: 35%;
+  }
+
+  .subscribe .row h1 {
+    font-size: 25px;
+  }
+
+  footer .row {
+    justify-content: center;
+  }
+
+  footer .row .main-box {
+    width: 50%;
+  }
+
+  footer .row .box {
+    width: calc(30% - 40px);
+  }
+}
+
+@media (max-width : 576px) and (min-width : 426px) {
+  
+}
+
+@media (max-width : 425px) and (min-width : 376px) {
+  nav .brand-name {
+    margin: 0px auto;
+  }
+
+  nav .contain .navbar-nav {
+    gap: 52px;
+    padding-bottom: 30px;
+  }
+
+  nav .contain {
+    flex-direction: column;
+  }
+
+  header {
+    margin-top: -210px;
+  }
+
+  header .heading {
+    width: 100%;
+  }
+
+  header .heading h1 {
+    font-size: 43px;
+  }
+
+  header .end-row {
+    flex-wrap: wrap-reverse;
+  }
+
+  header .end-row .left {
+    padding-left: 0px;
+    flex-wrap: inherit;
+  }
+
+  .products .frow {
+    flex-wrap:wrap;
+    gap: 30px;
+  }
+  
+  .products .frow .fbox ,.products .frow .secbox {
+    width: 100%;
+  }
+
+  .products .frow .fbox .img-contain img, .products .frow .secbox .img-contain img {
+    width: 250px;
+  }
+
+  .products .frow .fbox .content button, .products .frow .secbox .content button {
+    width: 120px;
+  }
+
+  .products .sec-row h3 {
+    font-size: 15px;
+  }
+
+  .products .sec-row button {
+    width: 92px;
+    height: 60px;
+  }
+
+  .choose-us .heading h1 {
+    font-size: 20px;
+  }
+
+  .choose-us .row {
+    flex-wrap: wrap;
+  }
+
+  .choose-us .row .box {
+    width: calc(50% - 20px);
+  }
+  
+  .subscribe .row {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+
+  .subscribe .row .sub button {
+    width: 35%;
+  }
+
+  .subscribe .row h1 {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .subscribe .row .sub {
+    flex-direction: column;
+  }
+
+  .subscribe .row .sub input {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .subscribe .row .sub button {
+    width: 100%;
+  }
+
+  footer .row {
+    justify-content: center;
+  }
+
+  footer .row .main-box {
+    width: 100%;
+  }
+
+  footer .row .box {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: none;
+  }
+}
+
+@media (max-width : 375px) and (min-width : 321px) {
+  nav .brand-name {
+    margin: 0px auto;
+  }
+
+  nav .contain .navbar-nav {
+    gap: 52px;
+    padding-bottom: 30px;
+  }
+
+  nav .contain {
+    flex-direction: column;
+  }
+
+  header {
+    margin-top: -210px;
+  }
+
+  header .heading {
+    width: 100%;
+  }
+
+  header .heading h1 {
+    font-size: 43px;
+  }
+
+  header .end-row {
+    flex-wrap: wrap-reverse;
+  }
+
+  header .end-row .left {
+    padding-left: 0px;
+    flex-wrap: inherit;
+  }
+
+  .products .frow {
+    flex-wrap:wrap;
+    gap: 30px;
+  }
+  
+  .products .frow .fbox ,.products .frow .secbox {
+    width: 100%;
+  }
+
+  .products .frow .fbox .img-contain img, .products .frow .secbox .img-contain img {
+    width: 200px;
+  }
+
+  .products .frow .fbox .content h2 ,.products .frow .secbox .content h2 {
+    font-size: 25px;
+  }
+
+  .products .frow .fbox .content button, .products .frow .secbox .content button {
+    width: 120px;
+  }
+
+  .products .sec-row h3 {
+    font-size: 15px;
+  }
+
+  .products .sec-row button {
+    width: 92px;
+    height: 60px;
+  }
+
+  .choose-us .heading h1 {
+    font-size: 20px;
+  }
+
+  .choose-us .row {
+    flex-wrap: wrap;
+  }
+
+  .choose-us .row .box {
+    width: calc(50% - 20px);
+  }
+  
+  .subscribe .row {
+    padding-top: 0px;
+    flex-direction: column;
+  }
+
+  .subscribe .row .sub button {
+    width: 35%;
+  }
+
+  .subscribe .row h1 {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .subscribe .row .sub {
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .subscribe .row .sub input {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .subscribe .row .sub button {
+    width: 200px;
+  }
+
+  footer .row {
+    justify-content: center;
+  }
+
+  footer .row .main-box {
+    width: 100%;
+  }
+
+  footer .row .box {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: none;
+  }
+}
+
+@media (max-width : 320px) {
+  nav .brand-name {
+    margin: 0px auto;
+  }
+
+  nav .contain .navbar-nav {
+    gap: 52px;
+    padding-bottom: 30px;
+  }
+
+  nav .contain {
+    flex-direction: column;
+  }
+
+  header {
+    margin-top: -210px;
+  }
+
+  header .heading {
+    width: 100%;
+  }
+
+  header .heading h1 {
+    font-size: 43px;
+  }
+
+  header .end-row {
+    flex-wrap: wrap-reverse;
+  }
+
+  header .end-row .left {
+    padding-left: 0px;
+    flex-wrap: inherit;
+  }
+
+  .products .frow {
+    flex-wrap:wrap;
+    gap: 30px;
+  }
+  
+  .products .frow .fbox ,.products .frow .secbox {
+    width: 100%;
+  }
+
+  .products .frow .fbox .img-contain img, .products .frow .secbox .img-contain img {
+    width: 175px;
+  }
+
+  .products .frow .fbox .content h2 ,.products .frow .secbox .content h2 {
+    font-size: 20px;
+  }
+
+  .products .frow .fbox .content button, .products .frow .secbox .content button {
+    width: 95px;
+  }
+
+  .products .frow .secbox .content button {
+    font-size: 13px;
+  }
+
+  .products .sec-row h3 {
+    font-size: 12px;
+  }
+
+  .products .sec-row button {
+    width: 80px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .choose-us .heading h1 {
+    font-size: 20px;
+  }
+
+  .choose-us .row {
+    flex-wrap: wrap;
+  }
+
+  .choose-us .row .box {
+    width: calc(50% - 20px);
+  }
+  
+  .subscribe .row {
+    padding-top: 0px;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .subscribe .row .sub button {
+    width: 35%;
+  }
+
+  .subscribe .row h1 {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .subscribe .row .sub {
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .subscribe .row .sub input {
+    width: 200px;
+    font-size: 12px;
+  }
+
+  .subscribe .row .sub button {
+    width: 200px;
+  }
+
+  footer .row {
+    justify-content: center;
+  }
+
+  footer .row .main-box {
+    width: 100%;
+  }
+
+  footer .row .box {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: none;
+  }  
+}

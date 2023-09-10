@@ -1,0 +1,321 @@
+* {
+  margin: 0px;
+  text-transform: capitalize;
+}
+
+:root {
+  --background-color: #E1ECFF ;
+  --primary-color: #00B1FF ;
+  --secondary-color: #1A6EFF ;
+  --icon-color: #FBB03B ;
+  --light-color: #fff ;
+  --dark-color: #000 ;
+  --semi-dark: #808080 ;
+  --semi-filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(8deg) brightness(92%) contrast(92%);
+  --light-filter: invert(0%) sepia(16%) saturate(0%) hue-rotate(311deg) brightness(108%) contrast(102%);
+  --dark-filter: invert(100%) sepia(3%) saturate(7494%) hue-rotate(301deg) brightness(107%) contrast(97%);
+  --background-filter: invert(87%) sepia(81%) saturate(6242%) hue-rotate(178deg) brightness(103%) contrast(108%);
+  --primary-filter: invert(50%) sepia(66%) saturate(2870%) hue-rotate(170deg) brightness(104%) contrast(106%);
+  --secondary-filter: invert(36%) sepia(81%) saturate(4141%) hue-rotate(211deg) brightness(101%) contrast(106%);
+  --icon-filter: invert(92%) sepia(14%) saturate(5663%) hue-rotate(326deg) brightness(98%) contrast(100%);
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.flex-data {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.bold {
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.start .row {
+  justify-content: start !important;
+  gap: 5px;
+}
+.start .row img {
+  filter: var(--semi-filter);
+}
+.start .row p {
+  margin-top: 18px;
+  font-size: 13px;
+}
+.start .row a {
+  color: var(--semi-dark);
+}
+
+.main-page {
+  margin-top: 50px;
+}
+.main-page .container .row {
+  gap: 20px;
+}
+.main-page .container .row .accordion {
+  width: calc(25% - 20px);
+  margin-top: -900px;
+}
+.main-page .container .row .accordion .card-header {
+  background-color: transparent;
+}
+.main-page .container .row .accordion .card-header button {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.main-page .container .row .accordion .card-body .row {
+  gap: 10px;
+  margin: 0px auto;
+}
+.main-page .container .row .accordion .card-body .row input {
+  width: 25px;
+  height: 25px;
+}
+.main-page .container .row .accordion .card-body .row p {
+  margin-top: 12px;
+}
+.main-page .container .row .accordion .card-body .row .gray {
+  color: var(--semi-dark);
+}
+.main-page .container .row .accordion .card-body .numbers {
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.main-page .container .row .accordion .card-body .numbers p {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.main-page .container .row .accordion .card-body .size-row {
+  justify-content: center;
+}
+.main-page .container .row .accordion .card-body .size-row .box {
+  border: 1px solid var(--semi-dark);
+  width: 50px;
+  text-align: center;
+}
+.main-page .container .row .accordion .card-body .size-row a {
+  color: var(--dark-color);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.main-page .container .row .accordion .card-body .color-row {
+  justify-content: center;
+}
+.main-page .container .row .accordion .card-body .color-row .box {
+  height: 40px;
+  border: 1px solid var(--semi-dark);
+  width: 40px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+.main-page .container .row .accordion .card-body .color-row .box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.main-page .container .row .accordion .card-body .color-row .box .black {
+  background-color: var(--dark-color);
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--semi-dark);
+  margin: 7px auto;
+}
+.main-page .container .row .accordion .card-body .color-row .box .brown {
+  background-color: brown;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--semi-dark);
+  margin: 7px auto;
+}
+.main-page .container .row .accordion .card-body .color-row .box .coffee {
+  background-color: bisque;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--semi-dark);
+  margin: 7px auto;
+}
+.main-page .container .row .accordion .card-body .color-row .box .gray {
+  background-color: gray;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--semi-dark);
+  margin: 7px auto;
+}
+.main-page .container .row .accordion .card-body .color-row .box .white {
+  background-color: var(--light-color);
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--semi-dark);
+  margin: 7px auto;
+}
+.main-page .container .row .accordion .card-body .color-row .box .blue {
+  background-color: var(--secondary-color);
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--semi-dark);
+  margin: 7px auto;
+}
+.main-page .container .row .product-show {
+  width: calc(100% - 20px - (25% - 20px));
+}
+.main-page .container .row .product-show .row {
+  justify-content: space-between;
+}
+.main-page .container .row .product-show .row .left {
+  gap: 10px;
+}
+.main-page .container .row .product-show .row .left h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+.main-page .container .row .product-show .row .left .gray {
+  color: var(--semi-dark);
+  font-weight: 300;
+}
+.main-page .container .row .product-show .row .right {
+  gap: 20px;
+}
+.main-page .container .row .product-show .row .right .btn-group button {
+  color: var(--dark-color);
+  border: 1px solid var(--semi-dark);
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+.main-page .container .row .product-show .row .right .btn-group .dropdown-menu {
+  text-align: center;
+}
+.main-page .container .row .product-show .row .right .btn-group .dropdown-menu a {
+  color: var(--dark-color);
+}
+.main-page .container .row .product-show .row .right .btn-group .dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+.main-page .container .row .product-show .products {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main-page .container .row .product-show .products .box {
+  width: calc(33.3333333333% - 20px);
+  position: relative;
+}
+.main-page .container .row .product-show .products .box .main-img {
+  width: 100%;
+  height: 250px;
+  z-index: -1;
+}
+.main-page .container .row .product-show .products .box .img-contain {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: var(--light-color);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+.main-page .container .row .product-show .products .box .img-contain img {
+  padding-top: 5px;
+}
+.main-page .container .row .product-show .products .box .img-contain:hover {
+  background-color: var(--icon-color);
+  cursor: pointer;
+}
+.main-page .container .row .product-show .products .box .img-contain:hover img {
+  filter: var(--dark-filter);
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  -moz-appearance: none;
+       appearance: none;
+  width: 100%; /* Full-width */
+  height: 15px; /* Specified height */
+  border-radius: 5px;
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */ /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  background: var(--dark-color); /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.next {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.next .row {
+  justify-content: end;
+  gap: 500px;
+}
+.next .row .page {
+  gap: 20px;
+}
+.next .row .page .num {
+  border: 1px solid var(--semi-dark);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.next .row .page .num:hover {
+  cursor: pointer;
+}
+.next .row .page-next {
+  margin-bottom: 10px;
+}
+.next .row .page-next a {
+  color: var(--dark-color);
+  font-weight: 500;
+  text-decoration: underline !important;
+}/*# sourceMappingURL=products.css.map */

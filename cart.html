@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8"/>
+      <meta name="description" content="....."/>
+      <meta name="author" content="ahmed ragab"/>
+      <meta name="keywords" content="wbdesign, SEO, programming, ...."/>
+
+      <title>
+        cart
+      </title>
+      <link rel="icon" type="image/x-icon" href="assets/images/logos_icons/logo.svg">
+      <link rel="stylesheet" href="assets/css/lib/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/payment.css">
+      <link rel="stylesheet" href="assets/css/product_view.css">
+      <link rel="stylesheet" href="assets/css/products.css">
+      <link rel="stylesheet" href="assets/css/cart.css">
+      <link rel="stylesheet" href="assets/css/lib/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/lib/owl.theme.default.min.css">
+  </head>
+  <body>
+      <nav class="navbar">
+          <div class="container">
+            <div class="contain flex-data">
+              <div class="brand-name">
+                <img src="assets/images/logos_icons/logo.svg" 
+                alt=""
+                loading="lazy">
+              </div>
+      
+              <div class="navbar-nav flex-data">
+                <a href="products.html">
+                  products
+                </a>
+      
+                <a href="#">
+                  insipiration
+                </a>
+      
+                <a href="#">
+                  rooms
+                </a>
+              </div>
+      
+              <div class="icons flex-data">
+                <a href="#">
+                  <img src="assets/images/logos_icons/cart.svg" 
+                  alt=""
+                  loading="lazy"
+                  class="cart">
+                </a>
+      
+                <a href="#">
+                  <img src="assets/images/logos_icons/search.svg" 
+                  alt=""
+                  loading="lazy">
+                </a>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="assets/images/logos_icons/user.svg" 
+                    alt=""
+                    loading="lazy">
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#" id="login">log in</a>
+                    <a class="dropdown-item" href="#" id="signup">sign up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </nav>
+
+      <main>
+          <div id="mylogin" class="login">
+              <div id="myPopup" class="popup">
+                <div class="popup-content">
+                  <img src="assets/images/logos_icons/close.svg" 
+                  alt=""
+                  loading="lazy"
+                  id="closesignin">
+                  <h1>
+                    log in
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <input type="email" name="" id="input" placeholder="  e-mali">
+                  <input type="password" id="input" placeholder="  password">
+                  <div class="row flex-data">
+                    <div class="check">
+                      <input type="checkbox" id="keep">
+                      <label for="keep">
+                        keep me signed in
+                      </label>
+                    </div>
+        
+                    <p id="pass">
+                      forgot password?
+                    </p>
+                  </div>
+                  
+                  <div class="btn-row flex-data">
+                    <a href="https://www.facebook.com/">
+                      <button class="facebook">
+                        <img src="assets/images/logos_icons/face.svg" 
+                        alt=""
+                        loading="lazy">
+        
+                        facebook
+                      </button>
+                    </a>
+                    <a href="https://www.gmail.com/">
+                      <button class="gmail">
+                        <img src="assets/images/logos_icons/gmail.svg" 
+                        alt=""
+                        loading="lazy">
+        
+                        gmail
+                      </button>
+                    </a>
+                  </div>
+                  <div class="signin" id="sign">
+                    <button>
+                      sign in
+                    </button>
+                  </div>
+        
+                  <div class="last-row flex-data">
+                    <p>
+                      not a member yet?
+                    </p>
+        
+                    <p class="boldd">
+                      sign up
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div id="mysignup" class="signup">
+              <div id="myPopup" class="popup">
+                <div class="popup-content">
+                  <img src="assets/images/logos_icons/close.svg" 
+                  alt=""
+                  loading="lazy"
+                  id="closesignup">
+                  <h1>
+                    creat an acount and discover the benefits
+                  </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit , Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+        
+                  <input type="text" placeholder="  first name">
+                  <input type="text" placeholder="  last name">
+                  <input type="email" placeholder="  email">
+                  <input type="password" placeholder="  password">
+        
+                  <div class="check">
+                    <input type="checkbox" id="keep">
+                    <label for="keep">
+                      i agree to the google terms of service and privacy policy
+                    </label>
+                  </div>
+        
+                  <div class="signin" id="sign">
+                    <button>
+                      sign up
+                    </button>
+                  </div>
+        
+                  <p class="last">
+                    are you already a member?
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div id="mypass" class="forgetpass">
+              <div id="myPopup" class="popup">
+                <div class="popup-content">
+                  <img src="assets/images/logos_icons/close.svg" 
+                  alt=""
+                  loading="lazy"
+                  id="closepass">
+                  <h1>
+                    forgot your password?
+                  </h1>
+                  <p>
+                    enter your email or phone number and recover your account
+                  </p>
+        
+                  <input type="email" placeholder="   email">
+        
+                  <p class="line">
+                    or
+                  </p>
+        
+                  <input type="tel" name="" id="" placeholder="  phone number">
+        
+                  <div class="reset">
+                    <button>
+                      reset password
+                    </button>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <section class="heading">
+              <div class="container">
+                  <div class="row flex-data">
+                      <h1>
+                          shopping cart
+                      </h1>
+
+                      <div class="img-row flex-data">
+                          <div class="img-contain">
+                              <img src="assets/images/logos_icons/cart.svg" 
+                              alt=""
+                              loading="lazy">
+                          </div>
+              
+                          <div class="img-contain">
+                              <img src="assets/images/logos_icons/shipping.svg" 
+                              alt=""
+                              loading="lazy">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+          <section class="cart">
+              <div class="container">
+                  <div class="row flex-data">
+                      <div class="box flex-data">
+                          <p id="first">
+                              product
+                          </p>
+
+                          <div class="product-row flex-data">
+                              <div class="img-contain">
+                              <img src="assets/images/product_view/product_view.png" 
+                              alt=""
+                              loading="lazy">
+                              </div>
+                              <div class="description">
+                              <p class="bold">
+                                  t-shirt summer vibes
+                              </p>
+              
+                              <p>
+                                  #261311
+                              </p>
+                              </div>
+                          </div>
+
+                          <div class="product-row flex-data">
+                              <div class="img-contain">
+                              <img src="assets/images/product_view/male-models-noah.webp" 
+                              alt=""
+                              loading="lazy">
+                              </div>
+                              <div class="description">
+                              <p class="bold">
+                                  basic slim fit t-shirt
+                              </p>
+              
+                              <p>
+                                  #251844
+                              </p>
+                              </div>
+                          </div>
+
+                      </div>
+
+                      <div class="contain flex-data">
+                          <div class="box flex-data">
+                              <p>
+                                  color
+                              </p>
+
+                              <p class="bold">
+                                  white
+                              </p>
+
+                              <p class="bold">
+                                  black
+                              </p>
+                          </div>
+
+                          <div class="box flex-data">
+                              <p>
+                                  size
+                              </p>
+
+                              <p class="bold">
+                                  xl
+                              </p>
+
+                              <p class="bold">
+                                  xl
+                              </p>
+                          </div>
+
+                          <div class="box flex-data">
+                              <p>
+                                  amount
+                              </p>
+
+                              <input type="number">
+
+                              <input type="number">
+                          </div>
+
+                          <div class="box flex-data">
+                              <p>
+                                  price
+                              </p>
+
+                              <p class="bold">
+                                  $89.99
+                              </p>
+
+                              <p class="bold">
+                                  $69.99
+                              </p>
+                          </div>
+
+                          <div class="box flex-data" id="closing">
+                              <div class="close">
+                                  <img src="assets/images/logos_icons/close.svg" 
+                                  alt=""
+                                  loading="lazy">
+                              </div>
+
+                              <div class="close">
+                                  <img src="assets/images/logos_icons/close.svg" 
+                                  alt=""
+                                  loading="lazy">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="last-row flex-data">
+                      <a href="products.html">
+                          <div class="back flex-data">
+                              <img src="assets/images/logos_icons/arrow.svg" 
+                              alt=""
+                              loading="lazy">
+                  
+                              <p class="bold">
+                              continue shopping
+                              </p>
+                          </div>
+                      </a>
+
+                      <div class="btns flex-data">
+                          <input type="text" name="" id="" placeholder="  promo code">
+
+                          <div class="cost flex-data">
+                              <p>
+                                  total cost
+                              </p>
+
+                              <p class="bold">
+                                  $159.98
+                              </p>
+                          </div>
+                          <a href="payment.html">
+                              <button>
+                                  checkout
+                              </button>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </section>
+      </main>
+      
+
+      <script src="assets/js/lib/jquery-3.3.1.slim.min.js"></script>
+      <script src="assets/js/lib/popper.js"></script>
+      <script src="assets/js/lib/bootstrap.min.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/log.js"></script>
+      <script src="assets/js/lib/owl.carousel.min.js"></script>
+  </body>
+</html>
